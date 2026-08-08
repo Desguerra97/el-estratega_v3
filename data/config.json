@@ -1,0 +1,143 @@
+{
+  "curso": "Creación de Empresas III",
+  "institucion": "Corporación Unificada Nacional (CUN)",
+  "version": "2.1.0",
+  "google_sheets_endpoint": "https://script.google.com/macros/s/AKfycbzKaZcp6P7zfDvoRZ-LjS_mD-ehc3Q0-UVqdMhvTzkX0qG-KbSymqvucI8uA3MuvCMa/exec",
+  "email_domain": "cun.edu.co",
+  "juego": {
+    "grid_cols": 40,
+    "grid_rows": 25,
+    "cell_size": 20,
+    "speed_ms_inicial": 140,
+    "speed_ms_min": 70,
+    "aceleracion_por_nivel": 8,
+    "vidas": 3,
+    "tiempo_por_nivel_seg": 60,
+    "puntos_por_acierto": 10,
+    "puntos_por_error": -5,
+    "bonus_nivel_completado": 50,
+    "bonus_tiempo_por_seg": 1,
+    "penalizacion_pista": 0.7,
+    "tiempo_reinicio_por_vida_seg": 20,
+    "bonus_combo": 10
+  },
+  "bonificacion_aca": [
+    {
+      "min": 0,
+      "max": 499,
+      "bonus": 0.0
+    },
+    {
+      "min": 500,
+      "max": 999,
+      "bonus": 0.5
+    },
+    {
+      "min": 1000,
+      "max": 1499,
+      "bonus": 1.0
+    },
+    {
+      "min": 1500,
+      "max": 1999,
+      "bonus": 1.5
+    },
+    {
+      "min": 2000,
+      "max": 999999,
+      "bonus": 2.0
+    }
+  ],
+  "capitulos": [
+    {
+      "num": 1,
+      "titulo": "Naturaleza de la Dirección Estratégica",
+      "icono": "🎯"
+    },
+    {
+      "num": 2,
+      "titulo": "La Misión de la Empresa",
+      "icono": "🧭"
+    },
+    {
+      "num": 3,
+      "titulo": "Evaluación Externa",
+      "icono": "🌍"
+    },
+    {
+      "num": 4,
+      "titulo": "Evaluación Interna",
+      "icono": "🏢"
+    },
+    {
+      "num": 5,
+      "titulo": "Estrategias en Acción",
+      "icono": "♟️"
+    },
+    {
+      "num": 6,
+      "titulo": "Análisis y Selección de la Estrategia",
+      "icono": "🔀"
+    },
+    {
+      "num": 7,
+      "titulo": "Implantación Gerencial",
+      "icono": "⚙️"
+    },
+    {
+      "num": 8,
+      "titulo": "Implantación Funcional",
+      "icono": "💼"
+    },
+    {
+      "num": 9,
+      "titulo": "Revisión, Evaluación y Control",
+      "icono": "📊"
+    }
+  ],
+  "gamificacion": {
+    "estrellas": {
+      "juego": 4,
+      "ia": 6
+    },
+    "insignias": [
+      {
+        "id": "cerebro",
+        "nombre": "Cerebro estratégico",
+        "icono": "🧠",
+        "criterio": "Completa 3 niveles"
+      },
+      {
+        "id": "detective",
+        "nombre": "Detective de mercados",
+        "icono": "🔎",
+        "criterio": "Completa el nivel 4"
+      },
+      {
+        "id": "mision",
+        "nombre": "Misión cumplida",
+        "icono": "🎯",
+        "criterio": "Completa el nivel 6"
+      },
+      {
+        "id": "analista",
+        "nombre": "Analista",
+        "icono": "📊",
+        "criterio": "Obtén 8/10 o más en IA en cualquier nivel"
+      },
+      {
+        "id": "ventaja",
+        "nombre": "Ventaja difícil de copiar",
+        "icono": "💎",
+        "criterio": "Completa el nivel 9"
+      },
+      {
+        "id": "armadura",
+        "nombre": "Sin armadura",
+        "icono": "👑",
+        "criterio": "Completa los 9 niveles"
+      }
+    ]
+  },
+  "nombre_juego": "El Estratega"
+}
