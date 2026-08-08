@@ -1,0 +1,775 @@
+{
+  "meta": {
+    "nombre": "El Estratega",
+    "descripcion": "Un laboratorio gamificado donde Samuel transforma una idea de negocio en un plan estratégico a través de 9 desafíos conectados.",
+    "historia": "Samuel empieza con una idea difícil de explicar y termina integrando un plan de negocio. Cada nivel responde una pregunta que abre naturalmente la siguiente."
+  },
+  "personaje": {
+    "nombre": "Samuel",
+    "avatar": "🧑‍💼",
+    "descripcion": "24 años. Recién graduado de la CUN. Trabaja en un empleo que lo agota. Tiene una idea de negocio que aplaza hace 2 años porque siente que 'no está listo'. Una mañana despierta con la certeza de que carga una armadura invisible que debe romper."
+  },
+  "mentor": {
+    "nombre": "El Estratega",
+    "avatar": "🧙‍♂️",
+    "descripcion": "Emprendedor veterano que guía a Samuel en cada escena con lecturas y desafíos. No da respuestas, hace mejores preguntas."
+  },
+  "poderes": {
+    "dinamita": {
+      "icono": "💣",
+      "nombre": "Dinamita",
+      "descripcion": "Rompe una roca o muro al frente. Metafóricamente: rompe una atadura del pensamiento."
+    },
+    "turbo": {
+      "icono": "⚡",
+      "nombre": "Turbo",
+      "descripcion": "Velocidad doble por 5 segundos. Momentos de claridad total."
+    },
+    "escudo": {
+      "icono": "🛡️",
+      "nombre": "Escudo",
+      "descripcion": "Invulnerable 5 segundos ante enemigos. La convicción que protege del ruido externo."
+    }
+  },
+  "niveles": [
+    {
+      "num": 1,
+      "titulo": "La idea que todavía no tiene nombre",
+      "seccion_documento": "0.1 Descripción + Claves de éxito",
+      "concepto": "Samuel tiene una idea, pero todavía no sabe explicarla con precisión. Antes de pensar en vender, debe descubrir qué hace realmente su negocio, para quién y qué elemento podría diferenciarlo.",
+      "tema": "cuarto",
+      "narrativa": {
+        "escena": "Samuel lleva varios días pensando en montar su propio negocio. Tiene claro que quiere emprender, pero cada vez que alguien le pregunta qué va a hacer, responde de una manera distinta. Una tarde abre su cuaderno y escribe tres preguntas: ¿qué ofrezco?, ¿para quién? y ¿por qué me elegirían? No tiene respuestas claras. Entonces entiende algo incómodo: una buena idea no empieza con un logo ni con un nombre; empieza cuando puede explicarse sin rodeos. En una hoja encuentra una frase que decide adoptar como regla: «Si no puedes explicarla con precisión, todavía no la conoces». Samuel empieza por ahí.",
+        "objetivo": "Define la idea con precisión y distingue lo que realmente puede diferenciarla de lo que cualquier competidor podría ofrecer."
+      },
+      "tiempo_seg": 90,
+      "dificultad": {
+        "enemigos": 1,
+        "portales": 0,
+        "bloqueados": 0,
+        "rocas": 0,
+        "lecturas": 0,
+        "muros_densidad": 0.08
+      },
+      "instruccion_juego": "Busca los elementos que hacen específica tu idea. Evita las respuestas genéricas.",
+      "tokens_correctos": [
+        "propuesta única",
+        "tecnología propia",
+        "modelo innovador",
+        "experiencia UX",
+        "aliados clave",
+        "conocimiento único",
+        "marca fuerte"
+      ],
+      "tokens_incorrectos": [
+        "precio bajo",
+        "buena calidad",
+        "atención 24/7",
+        "buen producto"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Qué es una clave de éxito real?",
+          "opciones": [
+            "Tener buena calidad",
+            "Precio bajo",
+            "Factor único difícil de imitar"
+          ],
+          "correcta": 2
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Como Samuel, describe TU idea de negocio",
+        "instruccion": "Ahora es tu turno. Redacta la descripción de tu idea de negocio con mínimo 200 palabras. Incluye nombre y actividad económica. Luego enumera al menos 3 claves de éxito (factores únicos).",
+        "min_palabras": 200,
+        "placeholder": "Ejemplo: 'CafeFix Bogotá' repara cafeteras espresso a domicilio (CIIU 9522). Actividad: reparación de aparatos domésticos.\n\nClaves de éxito:\n1. Servicio en <2 horas\n2. Repuestos originales garantizados\n3. Contrato de mantenimiento anual"
+      }
+    },
+    {
+      "num": 2,
+      "titulo": "El camino de las preguntas",
+      "seccion_documento": "0.2 Justificación",
+      "concepto": "Una idea solo merece convertirse en negocio cuando responde a una necesidad real. Samuel debe pasar de la intuición a una razón concreta para emprender.",
+      "tema": "sendero",
+      "narrativa": {
+        "escena": "Con la idea un poco más clara, Samuel sale a caminar para despejarse. En el camino vuelve a aparecer la misma duda: «¿Por qué alguien necesitaría esto?». Intenta responder con frases conocidas —porque está de moda, porque podría dar dinero, porque parece una buena oportunidad—, pero ninguna le convence. Entonces vuelve a la pregunta de su cuaderno: ¿qué problema estoy resolviendo? El camino se divide en varias rutas. Algunas parecen rápidas, pero terminan en círculos; otras obligan a detenerse y observar. Samuel comprende que investigar una necesidad toma más tiempo que seguir una corazonada, pero también ofrece una dirección mucho más firme.",
+        "objetivo": "Encuentra necesidades reales y señales de innovación. No confundas una moda con una oportunidad."
+      },
+      "tiempo_seg": 90,
+      "dificultad": {
+        "enemigos": 2,
+        "portales": 1,
+        "bloqueados": 0,
+        "rocas": 0,
+        "lecturas": 1,
+        "muros_densidad": 0.1
+      },
+      "instruccion_juego": "Sigue el camino de las necesidades reales. Usa los portales cuando encuentres un atajo útil.",
+      "tokens_correctos": [
+        "problema doloroso",
+        "gasto excesivo",
+        "tiempo perdido",
+        "IA aplicada",
+        "por suscripción",
+        "mercado desatendido",
+        "automatización"
+      ],
+      "tokens_incorrectos": [
+        "está de moda",
+        "todos lo hacen",
+        "corazonada",
+        "familiar dijo"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Qué justifica MEJOR una idea de negocio?",
+          "opciones": [
+            "Está de moda",
+            "Necesidad real con innovación",
+            "Un familiar lo pidió"
+          ],
+          "correcta": 1
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "El Estratega dice: 'Las oportunidades reales nacen de necesidades insatisfechas de un segmento específico. Una moda pasajera NO es oportunidad estratégica. Si mañana el algoritmo cambia y tu negocio muere, nunca tuviste un negocio.'",
+          "quiz": {
+            "q": "¿Qué es oportunidad ESTRATÉGICA según el texto?",
+            "opciones": [
+              "Una moda TikTok",
+              "Necesidad insatisfecha de un segmento",
+              "Lo que hacen todos"
+            ],
+            "correcta": 1
+          },
+          "poder": "turbo"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Justifica el ¿POR QUE? de TU idea",
+        "instruccion": "En máximo 5 líneas explica: (1) la necesidad insatisfecha o dolorosa que tu idea resuelve, y (2) tu factor de innovación diferenciador. Ejemplo de dato: cifra, tendencia, hecho verificable.",
+        "min_palabras": 60,
+        "placeholder": "Ejemplo: Existen 250.000 cafeteras espresso en Bogotá y solo 40 técnicos autorizados. Los usuarios esperan hasta 15 días. Innovación: servicio express a domicilio con repuestos originales, modelo por suscripción anual."
+      }
+    },
+    {
+      "num": 3,
+      "titulo": "Escuchar antes de decidir",
+      "seccion_documento": "0.3 Perfil del Cliente",
+      "concepto": "Samuel ya sabe qué problema quiere explorar. Ahora necesita saber quién lo vive realmente. El cliente no puede construirse a partir de suposiciones.",
+      "tema": "castillo_silencio",
+      "narrativa": {
+        "escena": "La siguiente parada es un edificio silencioso. En sus salas hay perfiles, hábitos, conversaciones y decisiones de compra. Samuel comienza a clasificarlos rápidamente, hasta que se da cuenta de que está intentando encajar a las personas en una idea que ya tenía en la cabeza. Se detiene. En lugar de preguntar «¿quién creo que compraría?», empieza a observar: edad, ingresos, intereses, valores y comportamiento. Las paredes dejan de parecer silenciosas. Hay información por todas partes, pero solo sirve si Samuel aprende a escucharla. En una de las salas encuentra otra nota: «Primero conoce a la persona. Después diseña para ella».",
+        "objetivo": "Construye un perfil de cliente con variables demográficas, psicográficas y de comportamiento."
+      },
+      "tiempo_seg": 90,
+      "dificultad": {
+        "enemigos": 2,
+        "portales": 1,
+        "bloqueados": 1,
+        "rocas": 1,
+        "lecturas": 1,
+        "muros_densidad": 0.12
+      },
+      "instruccion_juego": "Escucha antes de suponer. Recoge variables útiles y elimina los prejuicios.",
+      "tokens_correctos": [
+        "edad 25-35",
+        "ingresos altos",
+        "vive en Bogotá",
+        "profesional",
+        "sostenible",
+        "amante tech",
+        "compra 2x semana",
+        "lee reseñas"
+      ],
+      "tokens_incorrectos": [
+        "todo el mundo",
+        "cualquiera",
+        "público general",
+        "gente en general"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Cuál es variable DEMOGRÁFICA?",
+          "opciones": [
+            "Estilo de vida",
+            "Edad 25-35 años",
+            "Valores personales"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿Qué es un buyer persona?",
+          "opciones": [
+            "Un cliente ficticio detallado",
+            "Un empleado",
+            "Un competidor"
+          ],
+          "correcta": 0
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "El Estratega, en voz baja: 'La segmentación efectiva combina 3 tipos de variables: DEMOGRÁFICAS (edad, ingreso), PSICOGRÁFICAS (valores, estilo) y de COMPORTAMIENTO (frecuencia, canales). No hables. Escucha las tres.'",
+          "quiz": {
+            "q": "¿Cuántos tipos de variables tiene una buena segmentación?",
+            "opciones": [
+              "1",
+              "3",
+              "10"
+            ],
+            "correcta": 1
+          },
+          "poder": "dinamita"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Describe el perfil de TU cliente ideal",
+        "instruccion": "Escribe en 5 líneas el perfil y segmentación de tu cliente ideal (buyer persona). Incluye variables demográficas, psicográficas y de comportamiento. Justifica por qué es ESE cliente.",
+        "min_palabras": 80,
+        "placeholder": "Ejemplo: Andrés, 28-40 años, profesional en Chapinero, ingresos > 5 SMMLV, valora tiempo y sostenibilidad. Usa bicicleta 3+ veces/semana. Tecnológico, prefiere apps a llamadas."
+      }
+    },
+    {
+      "num": 4,
+      "titulo": "El bosque de los datos",
+      "seccion_documento": "0.4 Oportunidad de Mercado",
+      "concepto": "Conoce mejor a su cliente, Samuel necesita comprobar si el mercado respalda lo que está viendo. La información debe distinguirse de los rumores.",
+      "tema": "bosque",
+      "narrativa": {
+        "escena": "Samuel entra en un bosque donde cada sendero tiene una historia diferente. «Este mercado está creciendo», dice una voz. «A todos les encanta», asegura otra. «Mi primo conoce a alguien que vende eso», grita una tercera. Al principio todo parece información útil. Después descubre que muchas voces no tienen de dónde sostenerse. En su cuaderno empieza a anotar solo aquello que puede comprobar: datos oficiales, informes empresariales y fuentes del sector. El bosque no se vuelve menos ruidoso, pero sí más fácil de atravesar. Samuel entiende que investigar no es buscar información que confirme su idea; es buscar información que le permita tomar mejores decisiones.",
+        "objetivo": "Identifica tendencias de mercado respaldadas por fuentes confiables y separa evidencia de opinión."
+      },
+      "tiempo_seg": 90,
+      "dificultad": {
+        "enemigos": 3,
+        "portales": 2,
+        "bloqueados": 2,
+        "rocas": 2,
+        "lecturas": 1,
+        "muros_densidad": 0.14
+      },
+      "instruccion_juego": "Cruza el bosque usando información verificable. Ignora rumores y afirmaciones sin fuente.",
+      "tokens_correctos": [
+        "crecimiento DANE",
+        "consumo digital",
+        "cambio demográfico",
+        "regulación nueva",
+        "adopción tech",
+        "clase media",
+        "hábitos post-pandemia"
+      ],
+      "tokens_incorrectos": [
+        "yo creo que sí",
+        "amigos dicen",
+        "vi en TikTok",
+        "corazonada"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Cuál es la MEJOR fuente de datos de mercado en Colombia?",
+          "opciones": [
+            "TikTok",
+            "DANE",
+            "Corazonada"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿Qué NO es tendencia verificable?",
+          "opciones": [
+            "Aumento del comercio digital",
+            "Vi en un post",
+            "Cambio demográfico documentado"
+          ],
+          "correcta": 1
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "El Estratega abre su cuaderno: 'La auditoría externa exige DATOS VERIFICABLES: DANE, Confecámaras, Fedesarrollo, gremios sectoriales. Nunca corazonadas ni redes sociales sin curaduría. La diferencia entre estratega y aficionado son las fuentes.'",
+          "quiz": {
+            "q": "¿Qué fuente NO sirve para auditoría externa?",
+            "opciones": [
+              "DANE",
+              "Post viral en Twitter",
+              "Fedesarrollo"
+            ],
+            "correcta": 1
+          },
+          "poder": "escudo"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Analiza TU oportunidad de mercado con fuentes",
+        "instruccion": "En 5 líneas describe la tendencia del mercado y comportamiento del consumidor. Cita al menos UNA fuente (DANE, Confecámaras, Fedesarrollo, gremios).",
+        "min_palabras": 80,
+        "placeholder": "Ejemplo: DANE (2024) reporta que uso de cafeteras espresso creció 26% desde 2020 en hogares. Fedesarrollo indica que el mercado de electrodomésticos premium creció 15% anual. La tendencia post-pandemia favorece servicios a domicilio."
+      }
+    },
+    {
+      "num": 5,
+      "titulo": "Conocer lo que vas a vender",
+      "seccion_documento": "0.5 Portafolio",
+      "concepto": "Samuel ya entiende mejor el problema, el cliente y el mercado. Ahora debe aterrizar la solución: qué ofrece exactamente y cómo se presenta su portafolio.",
+      "tema": "castillo_conocimiento",
+      "narrativa": {
+        "escena": "Al salir del bosque, Samuel encuentra una sala de muestras. Hay productos y servicios de muchas empresas, pero las fichas están incompletas: falta el precio de unos, la garantía de otros y las especificaciones de varios. Samuel recuerda las veces que él mismo ha descartado una compra porque no encontró información suficiente. Decide ordenar su propio portafolio: qué ofrece, cuánto cuesta, qué incluye, qué beneficio entrega y qué respaldo tiene. La tarea parece sencilla hasta que descubre que conocer un producto exige mucho más que saber describirlo. Cada ficha completa le permite explicar mejor su propuesta y detectar lo que todavía necesita investigar.",
+        "objetivo": "Construye un portafolio claro, completo y coherente con las necesidades del cliente."
+      },
+      "tiempo_seg": 90,
+      "dificultad": {
+        "enemigos": 3,
+        "portales": 2,
+        "bloqueados": 2,
+        "rocas": 3,
+        "lecturas": 1,
+        "muros_densidad": 0.15
+      },
+      "instruccion_juego": "Completa las fichas de tu portafolio. Busca información concreta y evita descripciones vacías.",
+      "tokens_correctos": [
+        "precio $45.000",
+        "material ISO",
+        "ficha técnica",
+        "garantía 2 años",
+        "foto 360",
+        "empaque premium",
+        "especificaciones",
+        "plan suscripción"
+      ],
+      "tokens_incorrectos": [
+        "es un producto",
+        "es bueno",
+        "es de calidad",
+        "sirve para todo"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Qué NO debe faltar en un portafolio?",
+          "opciones": [
+            "Precio y ficha técnica",
+            "El logo bonito",
+            "Solo la foto"
+          ],
+          "correcta": 0
+        },
+        {
+          "q": "¿Cuántos productos mínimo debe tener tu portafolio?",
+          "opciones": [
+            "1",
+            "4",
+            "100"
+          ],
+          "correcta": 1
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "El Estratega toma un libro grueso: 'Cada producto en tu portafolio debe ser DESCRIBIBLE con 5 datos: nombre, descripción técnica, precio, especificaciones y beneficio principal. Es bueno NO es descripción. Es un producto TAMPOCO. Precisión, siempre.'",
+          "quiz": {
+            "q": "¿Cuántos datos mínimos debe tener cada producto?",
+            "opciones": [
+              "1",
+              "3",
+              "5"
+            ],
+            "correcta": 2
+          },
+          "poder": "dinamita"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Presenta TU portafolio (mínimo 4 productos)",
+        "instruccion": "Describe al menos 4 productos o servicios de tu empresa. Para cada uno: nombre, descripción técnica, precio, especificaciones y beneficio.",
+        "min_palabras": 200,
+        "placeholder": "Ejemplo:\n1. CafeFix Express: reparación domicilio <2h. $120.000. Garantía 30 días.\n2. Plan Anual: 4 mantenimientos + descalcificación. $480.000/año.\n3. Diagnóstico Gratuito: revisión inicial sin costo si contrata reparación.\n4. Repuestos Originales: catálogo con envío 24h. Desde $15.000."
+      }
+    },
+    {
+      "num": 6,
+      "titulo": "Decir por qué existes",
+      "seccion_documento": "1.1 Misión",
+      "concepto": "Samuel ya puede explicar qué vende y para quién. El siguiente paso es condensar esa dirección en una misión clara: qué hace, para quién lo hace y cómo lo hace de manera diferente.",
+      "tema": "puente",
+      "narrativa": {
+        "escena": "Con el portafolio organizado, Samuel se da cuenta de que todavía le cuesta responder una pregunta sencilla: «¿Para qué existe tu empresa?». En una sala encuentra varias frases. Algunas suenan bien, pero podrían pertenecer a cualquier organización. Otras son más concretas y muestran una acción, un cliente y una forma particular de generar valor. Samuel empieza a compararlas. Entiende que una misión no está para decorar una presentación: sirve para recordar qué decisiones sí corresponden al negocio y cuáles no. Cuando logra escribirla en una sola frase, siente que la idea empieza a tener dirección.",
+        "objetivo": "Formula una misión que combine acción, público objetivo y diferenciación."
+      },
+      "tiempo_seg": 90,
+      "dificultad": {
+        "enemigos": 3,
+        "portales": 2,
+        "bloqueados": 3,
+        "rocas": 3,
+        "lecturas": 1,
+        "muros_densidad": 0.16
+      },
+      "instruccion_juego": "Construye una misión real. Elige las piezas que explican qué haces, para quién y cómo te diferencias.",
+      "tokens_correctos": [
+        "impulsamos",
+        "transformamos",
+        "a ciclistas urbanos",
+        "a empresas medianas",
+        "con app móvil",
+        "en menos de 60 min",
+        "con soporte 24/7"
+      ],
+      "tokens_incorrectos": [
+        "hacer plata",
+        "vender mucho",
+        "ser los mejores",
+        "trabajar duro"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Qué 3 elementos tiene una misión?",
+          "opciones": [
+            "Verbo + a quién + cómo se diferencia",
+            "Precio + costo + margen",
+            "Foto + logo + eslogan"
+          ],
+          "correcta": 0
+        },
+        {
+          "q": "¿En qué tiempo verbal se escribe la misión?",
+          "opciones": [
+            "Pasado",
+            "Presente",
+            "Futuro"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿Cuál es una BUENA misión?",
+          "opciones": [
+            "'Ser los mejores'",
+            "'Impulsamos ciclistas urbanos con reparación en 60 min'",
+            "'Ganar mucha plata'"
+          ],
+          "correcta": 1
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "El Estratega desde el otro lado: 'Una misión responde QUE HACES, PARA QUIEN y COMO TE DIFERENCIAS. Es presente, corta, específica y perdurable. NO es un discurso motivacional ni un eslogan bonito.'",
+          "quiz": {
+            "q": "Según el maestro, ¿qué NO debe ser una misión?",
+            "opciones": [
+              "Presente y específica",
+              "Un discurso motivacional vacío",
+              "Perdurable"
+            ],
+            "correcta": 1
+          },
+          "poder": "escudo"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Redacta la misión de TU empresa",
+        "instruccion": "Crea tu declaración de misión: verbo + a quién sirves + cómo te diferencias. Después justifica en 2-3 líneas por qué elegiste esos elementos.",
+        "min_palabras": 60,
+        "placeholder": "Ejemplo:\nMisión: 'Reparamos cafeteras espresso premium a domicilio en menos de 2 horas con repuestos originales y garantía extendida, para profesionales que valoran su tiempo y su café.'"
+      }
+    },
+    {
+      "num": 7,
+      "titulo": "Mirar más allá del primer año",
+      "seccion_documento": "1.2 Visión",
+      "concepto": "Con una misión clara, Samuel necesita decidir hacia dónde quiere llevar el negocio. La visión convierte la intención de crecer en un futuro concreto y demostrable.",
+      "tema": "cima",
+      "narrativa": {
+        "escena": "Samuel sale de la sala y llega a un punto alto desde donde puede ver varios caminos. Hasta ahora ha pensado en poner en marcha el negocio; ahora debe imaginar en qué quiere convertirlo. Podría decir «ser los mejores», pero esa frase no le permite saber si avanzó. Entonces empieza a escribir escenarios: ciudades, clientes, productos, impacto y plazo. Algunos son demasiado ambiciosos; otros no representan ningún reto. Poco a poco encuentra un futuro que puede explicar y, sobre todo, reconocer cuando llegue. En su cuaderno escribe: «Una visión sirve cuando puedes saber si algún día la alcanzaste».",
+        "objetivo": "Define una visión futura con alcance, horizonte y resultados que puedan observarse o medirse."
+      },
+      "tiempo_seg": 90,
+      "dificultad": {
+        "enemigos": 4,
+        "portales": 3,
+        "bloqueados": 3,
+        "rocas": 4,
+        "lecturas": 1,
+        "muros_densidad": 0.17
+      },
+      "instruccion_juego": "Elige metas de futuro concretas. Evita frases que no permitan comprobar el avance.",
+      "tokens_correctos": [
+        "líder en 2035",
+        "5 ciudades 2030",
+        "100.000 clientes",
+        "cero carbono",
+        "empresa B",
+        "20% anual",
+        "innovación reconocida"
+      ],
+      "tokens_incorrectos": [
+        "ser los mejores",
+        "hacer todo bien",
+        "ser famosos",
+        "vender mucho"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Una buena visión debe ser?",
+          "opciones": [
+            "Vaga y bonita",
+            "Cuantificable y aspiracional",
+            "Copia del líder"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿A cuántos años proyecta una visión?",
+          "opciones": [
+            "1 año",
+            "1 mes",
+            "10-20 años"
+          ],
+          "correcta": 2
+        },
+        {
+          "q": "¿Cuál es una BUENA visión?",
+          "opciones": [
+            "'Ser líderes'",
+            "'Ser la red líder en LatAm con 500 técnicos en 2035'",
+            "'Ser famosos'"
+          ],
+          "correcta": 1
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "El Estratega, señalando el horizonte: 'La visión debe ser BREVE, INSPIRADORA y ORIENTADA AL FUTURO. Debe caber en una frase memorable pero contener metas cuantificables como sustento. Si nadie puede medir si la cumpliste, no era visión: era humo.'",
+          "quiz": {
+            "q": "¿Qué NO debe ser una visión?",
+            "opciones": [
+              "Breve",
+              "Inspiradora",
+              "Larga y vaga"
+            ],
+            "correcta": 2
+          },
+          "poder": "turbo"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Escribe TU visión a 10-20 años",
+        "instruccion": "Proyecta tu empresa a 10-20 años. Incluye qué serás (posición), cómo lo lograrás (estrategia general) y qué impacto tendrás (en clientes, sector, sociedad).",
+        "min_palabras": 80,
+        "placeholder": "Ejemplo: 'Para 2035 seremos la red líder de reparación técnica de cafeteras premium en LatAm, con 300 técnicos certificados en 5 países y una app que atienda 500.000 usuarios activos.'"
+      }
+    },
+    {
+      "num": 8,
+      "titulo": "Convertir las intenciones en decisiones",
+      "seccion_documento": "1.3 Objetivos + 1.4 Valores",
+      "concepto": "Samuel sabe qué hace, para quién, por qué existe y hacia dónde quiere llegar. Ahora necesita convertir esa dirección en objetivos y valores que orienten las decisiones del negocio.",
+      "tema": "castillo_voluntad",
+      "narrativa": {
+        "escena": "En la última sala antes de la salida hay una mesa con dos tipos de decisiones. En una están frases como «crecer mucho» o «ser reconocidos». En la otra aparecen metas con fechas, cantidades y responsables, junto con valores que explican cómo quiere actuar la empresa. Samuel entiende la diferencia: una intención puede inspirar, pero un objetivo permite decidir y evaluar. También comprende que los valores no son palabras bonitas; deben aparecer en la forma en que trata a clientes, proveedores y equipo. Ordena las piezas y descubre que una estrategia comienza a ser real cuando puede convertirse en acciones concretas.",
+        "objetivo": "Selecciona objetivos SMART y valores auténticos que puedan orientar la ejecución de la estrategia."
+      },
+      "tiempo_seg": 100,
+      "dificultad": {
+        "enemigos": 4,
+        "portales": 3,
+        "bloqueados": 4,
+        "rocas": 5,
+        "lecturas": 2,
+        "muros_densidad": 0.18
+      },
+      "instruccion_juego": "Convierte intenciones en decisiones medibles. Elige objetivos SMART y valores coherentes.",
+      "tokens_correctos": [
+        "aumentar 20% en 2026",
+        "abrir 3 sucursales",
+        "10.000 usuarios",
+        "certificar ISO",
+        "integridad",
+        "innovación",
+        "sostenibilidad",
+        "transparencia"
+      ],
+      "tokens_incorrectos": [
+        "ser buenos",
+        "vender más",
+        "crecer",
+        "que nos vaya bien"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Qué significa la S en SMART?",
+          "opciones": [
+            "Simple",
+            "Específico",
+            "Sostenible"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿Cuál es objetivo SMART real?",
+          "opciones": [
+            "'Crecer más'",
+            "'Alcanzar 5.000 clientes para diciembre 2026'",
+            "'Ser buenos'"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿Cuántos valores debe tener una empresa?",
+          "opciones": [
+            "1 o 2",
+            "3 a 10",
+            "50 o más"
+          ],
+          "correcta": 1
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "SMART = Específico, Medible, Alcanzable, Relevante y Temporal (con plazo). Los valores son 3-10 principios que dan identidad, no una lista larga vacía. Menos es más si son verdaderos.",
+          "quiz": {
+            "q": "¿Cuántos valores máximo debe tener una empresa?",
+            "opciones": [
+              "3-10",
+              "1",
+              "100"
+            ],
+            "correcta": 0
+          },
+          "poder": "dinamita"
+        },
+        {
+          "texto": "El Estratega, con voz grave: 'Un objetivo SIN plazo es un deseo. Un objetivo CON plazo y métrica es un compromiso estratégico. La voluntad se prueba en el calendario.'",
+          "quiz": {
+            "q": "¿Qué convierte un deseo en objetivo?",
+            "opciones": [
+              "Escribirlo bonito",
+              "Plazo y métrica claros",
+              "Firmarlo"
+            ],
+            "correcta": 1
+          },
+          "poder": "escudo"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Define TUS objetivos estratégicos y valores",
+        "instruccion": "Redacta al menos 3 objetivos SMART. Luego lista 3-5 valores fundacionales explicando en una frase por qué cada uno es crucial.",
+        "min_palabras": 120,
+        "placeholder": "Ejemplo:\nObjetivos:\n1. Alcanzar 500 clientes suscritos al plan anual para diciembre 2026.\n2. Abrir sucursales en Medellín y Cali en semestre 2 de 2027.\n\nValores:\n- Puntualidad: el tiempo del cliente es sagrado.\n- Transparencia: precios claros sin sorpresas."
+      }
+    },
+    {
+      "num": 9,
+      "titulo": "El Estratega",
+      "seccion_documento": "1.5 Ventaja + 1.6 Cadena de Valor + Resumen Ejecutivo",
+      "concepto": "Samuel llega al punto en que debe integrar todo lo construido. Ya no se trata de una idea aislada, sino de explicar por qué el negocio puede competir, cómo crea valor y por qué merece ser elegido.",
+      "tema": "amanecer",
+      "narrativa": {
+        "escena": "Samuel cierra el cuaderno y vuelve al lugar donde empezó. Ahora tiene algo que antes no tenía: una idea definida, un problema que puede explicar, un cliente concreto, información del mercado, un portafolio, una misión, una visión y objetivos para avanzar. Solo falta demostrar que todo encaja. Frente a él aparecen tres espacios vacíos: ventaja competitiva, cadena de valor y resumen ejecutivo. Esta vez nadie va a completar las respuestas por él. Debe decidir qué hace difícil de copiar su propuesta, cómo organiza las actividades que crean valor y cómo contaría todo el proyecto con claridad. Samuel mira su recorrido y entiende que el reto nunca fue aprender frases de memoria. Era aprender a pensar como estratega.",
+        "objetivo": "Integra todo el plan: ventaja competitiva difícil de imitar, cadena de valor y resumen ejecutivo."
+      },
+      "tiempo_seg": 150,
+      "dificultad": {
+        "enemigos": 5,
+        "portales": 4,
+        "bloqueados": 5,
+        "rocas": 6,
+        "lecturas": 2,
+        "muros_densidad": 0.2
+      },
+      "instruccion_juego": "Integra lo aprendido. Construye una ventaja defendible, una cadena de valor coherente y un resumen ejecutivo sólido.",
+      "tokens_correctos": [
+        "patente propia",
+        "red exclusiva",
+        "algoritmo único",
+        "cultura única",
+        "logística óptima",
+        "operaciones escala",
+        "data propia",
+        "postventa premium",
+        "IyD interna",
+        "capital humano"
+      ],
+      "tokens_incorrectos": [
+        "oficina bonita",
+        "buen logo",
+        "atención básica",
+        "empleados amables",
+        "trabajar duro",
+        "querer ganar"
+      ],
+      "quiz_bloqueo": [
+        {
+          "q": "¿Cuál es una ventaja competitiva REAL?",
+          "opciones": [
+            "Oficina bonita",
+            "Patente propia",
+            "Buen logo"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿Cuáles son actividades PRIMARIAS de la cadena de valor?",
+          "opciones": [
+            "Logística, operaciones, marketing, servicio",
+            "RRHH, tecnología, infraestructura",
+            "Ventas de café"
+          ],
+          "correcta": 0
+        },
+        {
+          "q": "¿Un resumen ejecutivo bueno dice?",
+          "opciones": [
+            "Lo mínimo posible",
+            "Sintetiza TODO el plan de negocio",
+            "Solo el logo"
+          ],
+          "correcta": 1
+        },
+        {
+          "q": "¿Qué hace difícil de imitar una ventaja competitiva?",
+          "opciones": [
+            "Que sea barata",
+            "Que sea única y protegida",
+            "Que sea bonita"
+          ],
+          "correcta": 1
+        }
+      ],
+      "lecturas": [
+        {
+          "texto": "Porter (a través del Estratega): 'La cadena de valor tiene actividades PRIMARIAS (logística interna, operaciones, logística externa, marketing, servicio) y de APOYO (infraestructura, RRHH, tecnología, abastecimiento).'",
+          "quiz": {
+            "q": "¿Cuál NO es actividad primaria de Porter?",
+            "opciones": [
+              "Operaciones",
+              "Marketing",
+              "RRHH (es de apoyo)"
+            ],
+            "correcta": 2
+          },
+          "poder": "dinamita"
+        },
+        {
+          "texto": "Una ventaja competitiva sostenible cumple 3 criterios: VALIOSA para el cliente, UNICA en el mercado y DIFICIL DE IMITAR por competidores. Si falla uno, la armadura vuelve.",
+          "quiz": {
+            "q": "¿Qué criterio NO define ventaja sostenible?",
+            "opciones": [
+              "Valiosa para el cliente",
+              "Fácil de copiar",
+              "Difícil de imitar"
+            ],
+            "correcta": 1
+          },
+          "poder": "escudo"
+        }
+      ],
+      "pregunta_abierta": {
+        "titulo": "Ventaja + Cadena de Valor + Resumen Ejecutivo",
+        "instruccion": "Como Samuel ante los inversionistas, redacta las 3 partes: (1) VENTAJA COMPETITIVA difícil de imitar. (2) CADENA DE VALOR con actividades primarias y de apoyo. (3) RESUMEN EJECUTIVO de mínimo 150 palabras que sintetice tu plan completo.",
+        "min_palabras": 250,
+        "placeholder": "Ejemplo:\n1. Ventaja: red exclusiva de técnicos certificados por Nespresso Colombia con contrato de exclusividad de 3 años.\n\n2. Cadena de valor:\n- Primarias: logística (van de repuestos), operaciones (técnicos), marketing (SEO+alianzas edificios), servicio (soporte app).\n- Apoyo: RRHH (academia interna), tecnología (app+CRM), infraestructura (bodega central).\n\n3. Resumen ejecutivo: CafeFix Bogotá es una empresa de reparación técnica de cafeteras espresso premium fundada en 2026..."
+      }
+    }
+  ]
+}
